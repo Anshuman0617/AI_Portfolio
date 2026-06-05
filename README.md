@@ -2,7 +2,7 @@
 
 This is my personal portfolio website, featuring an AI chat assistant. It displays my education, skills, projects, and clubs, and lets you chat with an AI that knows all about my background.
 
----
+----
 
 ## Tech Stack
 
@@ -10,7 +10,7 @@ Here is what I used to build the website:
 * **Framework**: Next.js 16 (using the App Router)
 * **Library**: React 19
 * **Styling**: Tailwind CSS v4 and custom CSS for styling and animations
-* **AI Model**: Google Gemini API (`gemini-2.5-flash` model) to run the chatbot
+* **AI Model**: Google Gemini API (`gemini-2.5-flash-lite` model) to run the chatbot
 
 ---
 

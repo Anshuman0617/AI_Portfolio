@@ -30,13 +30,18 @@ Strict Guidelines:
 4. If asked for contact details, provide his email (f20240217@hyderabad.bits-pilani.ac.in) and phone (8097622762) from the contact info.
 5. Keep your responses concise, engaging, and structured (using lists or bold text where appropriate) so they are easy to read in a chat window.`;
 
-    const geminiMessages = messages.map(m => ({
+    let geminiMessages = messages.map(m => ({
       role: m.role === "assistant" ? "model" : "user",
       parts: [{ text: m.content }]
     }));
 
+    // Ensure the message history starts with a 'user' turn by removing the local greeting
+    if (geminiMessages.length > 0 && geminiMessages[0].role === "model") {
+      geminiMessages.shift();
+    }
+
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${apiKey}`,
       {
         method: "POST",
         headers: {
@@ -57,7 +62,9 @@ Strict Guidelines:
     if (!response.ok) {
       const errorData = await response.json().catch(() => ({}));
       console.error("Gemini API error:", errorData);
-      return NextResponse.json({ error: "Failed to fetch response from Gemini engine" }, { status: 500 });
+      return NextResponse.json({ 
+        error: errorData.error?.message || "Failed to fetch response from Gemini engine" 
+      }, { status: response.status });
     }
 
     const data = await response.json();
