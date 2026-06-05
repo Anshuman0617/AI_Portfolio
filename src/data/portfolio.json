@@ -1,0 +1,153 @@
+{
+  "personal": {
+    "name": "Anshuman Singh",
+    "title": "B.E. Mathematics & Computing Student at BITS Pilani",
+    "email": "f20240217@hyderabad.bits-pilani.ac.in",
+    "phone": "8097622762",
+    "location": "Bangalore, Karnataka, India",
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "bio": "I am a Mathematics & Computing student at BITS Pilani with interests in Full-Stack Web Development, Machine Learning, and Artificial Intelligence. Through coursework and personal projects, I have gained hands-on experience in software development, data analysis, and machine learning. I am eager to continue developing my technical skills and contribute to impactful projects while learning from experienced teams.",
+    "education": {
+      "college": "Birla Institute of Technology & Science (BITS), Pilani",
+      "campus": "Hyderabad Campus",
+      "program": "B.E. Mathematics and Computing",
+      "cgpa": "8.68 / 10.0",
+      "id": "2024ADPS0217H",
+      "dob": "09-07-2006",
+      "address": "3228, Casa Paradiso 2, Sobha City, Thanisandra Main Road, Bangalore, 560077",
+      "courses": [
+        "Biology Laboratory",
+        "Computer Programming",
+        "Data Structures & Algorithms",
+        "Electrical Sciences",
+        "Engineering Graphics",
+        "General Biology",
+        "Linear Algebra and its App",
+        "Mathematics I",
+        "Mathematics III",
+        "Numerical Analysis",
+        "Object Oriented Programming",
+        "Principles of Economics",
+        "Scientific Computing Lab",
+        "Technical Report Writing",
+        "Workshop Practice",
+        "Chemistry Laboratory",
+        "Crime and New Media",
+        "Discrete Mathematics",
+        "Elementary Real Analysis",
+        "Environmental Studies",
+        "General Chemistry",
+        "Main Currents of Mod His",
+        "Mathematics II",
+        "Mech Oscillations & Wave",
+        "Numerical Optimization",
+        "Physics Laboratory",
+        "Probability & Statistics",
+        "Stochastic Calcu & App to Fin",
+        "Thermodynamics"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "category": "Languages & Systems",
+      "items": [
+        "C",
+        "Python",
+        "Java",
+        "Linux OS",
+        "Windows",
+        "Git"
+      ]
+    },
+    {
+      "category": "Web Engineering",
+      "items": [
+        "React.js",
+        "Node.js",
+        "HTML5 & CSS3",
+        "MySQL Database",
+        "Basic PHP"
+      ]
+    },
+    {
+      "category": "Data & Machine Learning",
+      "items": [
+        "NumPy",
+        "Pandas",
+        "PyTorch",
+        "OpenCV",
+        "GPU Acceleration"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "livemart",
+      "title": "LiveMart — Local Marketplace Platform",
+      "tech": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Google Auth",
+        "PayUMoney"
+      ],
+      "desc": "Led a graded academic team to design a full-stack local commerce application connecting consumers with nearby retailers and wholesalers. Engineered product listings search/filtering and real-time inventory updates.",
+      "achievements": "Google authentication integration | PayUMoney secure transaction gateway | Interactive real-time updates",
+      "role": "Project Team Lead"
+    },
+    {
+      "id": "facial-expression",
+      "title": "Facial Expression Recognition Model",
+      "tech": [
+        "Python",
+        "PyTorch",
+        "GPU Acceleration",
+        "OpenCV",
+        "NumPy",
+        "Pandas"
+      ],
+      "desc": "Developed an image-based facial expression recognition deep learning model leveraging PyTorch with GPU acceleration for efficient training and high-accuracy inference.",
+      "achievements": "High-efficiency GPU-accelerated training | Complex preprocessing with OpenCV | High classification accuracy",
+      "role": "Developer (Matrix Club Initiative)"
+    }
+  ],
+  "activities": [
+    {
+      "title": "Member of Matrix Club",
+      "desc": "Actively contributed to advanced machine learning and technical initiatives, specifically leading development of image processing modules."
+    },
+    {
+      "title": "LiveMart Team Lead",
+      "desc": "Coordinated backend and frontend developers to maintain clear communication and modular full-stack API systems."
+    }
+  ],
+  "interests": [
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Web Development & related technologies"
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is Anshuman's academic background?",
+      "answer": "Anshuman is pursuing a B.E. in Mathematics and Computing at BITS Pilani (Hyderabad Campus) with an impressive CGPA of 8.68/10.0. His coursework includes high-grade performance in Computer Programming, OOP, Probability & Statistics, Discrete Mathematics, and Numerical Analysis."
+    },
+    {
+      "question": "Tell me about his LiveMart project.",
+      "answer": "LiveMart is a full-stack local marketplace platform that connects consumers with local retailers. Anshuman led the project team to build the responsive React frontend, a Node.js backend, and a PostgreSQL database. It features secure Google login, real-time inventory tracking, and PayUMoney payment integrations."
+    },
+    {
+      "question": "What machine learning experience does he have?",
+      "answer": "Anshuman developed an image-based 'Facial Expression Recognition Model' using Python, PyTorch, and OpenCV. He optimized training speeds using GPU acceleration and manipulated large feature datasets with NumPy and Pandas. He is also an active member of BITS Pilani's Matrix Club."
+    },
+    {
+      "question": "What programming languages does he know?",
+      "answer": "Anshuman is highly proficient in C, Python, and Java. For web development, he uses JavaScript (React, Node.js), HTML, CSS, and basic PHP. For data analysis and machine learning, he is skilled in PyTorch, NumPy, and Pandas."
+    },
+    {
+      "question": "How can I contact Anshuman?",
+      "answer": "You can reach Anshuman by email at f20240217@hyderabad.bits-pilani.ac.in or by calling 8097622762. He is based in Bangalore, Karnataka, India."
+    }
+  ]
+}
