@@ -92,7 +92,6 @@ npm start
 
 * **Stopping the AI from making things up**: Standard AI models can sometimes hallucinate details or answers. I fixed this by writing strict rules in the system instructions telling the AI to only use the data inside `portfolio.json`.
 * **Styling the chat box**: Making the chat window float correctly, show typing animations, and scroll down automatically when new messages appear took some trial and error.
-* **Combining Tailwind and Custom CSS**: Setting up the styles so Tailwind v4 works nicely alongside my custom layout styles.
 
 ---
 
